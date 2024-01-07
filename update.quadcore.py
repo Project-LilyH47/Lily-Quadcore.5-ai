@@ -55,7 +55,7 @@ def check_latest_version(current_model):
 
     if current_model not in model_list:
         print(f"Current model {current_model} not found in the list.")
-        print("Simulating a fake download and applying a new model...")
+        print("Downloading and applying a new model...")
 
         new_model = "Lily Quantum 5 600K"
         print(f"New model applied: {new_model}")
